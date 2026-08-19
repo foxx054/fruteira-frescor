@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruteira Frescor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fruteira Frescor</h1>
+        <p>As melhores frutas fresquinhas da região!</p>
+    </header>
+
+    <main>
+        <h2>Nossos Produtos</h2>
+        <section class="produtos">
+            <div class="produto" data-nome="Maçã" data-preco="5.99">
+                <div class="produto-img">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="60" cy="68" rx="38" ry="40" fill="#d32f2f"/>
+                        <ellipse cx="48" cy="68" rx="36" ry="38" fill="#e53935"/>
+                        <path d="M60 28 Q65 10 75 15 Q70 25 60 28" fill="#4caf50"/>
+                        <path d="M60 28 Q55 12 48 18 Q52 26 60 28" fill="#66bb6a"/>
+                        <ellipse cx="50" cy="60" rx="6" ry="12" fill="rgba(255,255,255,0.2)"/>
+                    </svg>
+                </div>
+                <h3>Maçã</h3>
+                <p class="preco">R$ 5,99 /kg</p>
+                <button>Adicionar</button>
+            </div>
+            <div class="produto oferta" data-nome="Banana" data-preco="3.49">
+                <div class="produto-img">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 85 Q25 50 55 25 Q65 20 70 30 Q55 40 45 75 Z" fill="#fdd835"/>
+                        <path d="M30 85 Q25 55 50 30 Q52 35 45 75 Z" fill="#fbc02d"/>
+                        <path d="M35 80 Q30 55 52 32" stroke="#f9a825" stroke-width="2" fill="none"/>
+                        <circle cx="55" cy="25" r="3" fill="#8d6e63"/>
+                    </svg>
+                </div>
+                <h3>Banana</h3>
+                <p class="preco">R$ 3,49 /kg</p>
+                <button>Adicionar</button>
+            </div>
+            <div class="produto" data-nome="Laranja" data-preco="4.29">
+                <div class="produto-img">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="60" cy="65" r="40" fill="#ff9800"/>
+                        <circle cx="60" cy="65" r="37" fill="#ffa726"/>
+                        <circle cx="50" cy="58" rx="5" ry="8" fill="rgba(255,255,255,0.2)"/>
+                        <ellipse cx="60" cy="28" rx="8" ry="5" fill="#4caf50"/>
+                        <path d="M57 30 Q50 20 55 15" stroke="#388e3c" stroke-width="2" fill="none"/>
+                    </svg>
+                </div>
+                <h3>Laranja</h3>
+                <p class="preco">R$ 4,29 /kg</p>
+                <button>Adicionar</button>
+            </div>
+            <div class="produto" data-nome="Uva" data-preco="9.90">
+                <div class="produto-img">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="45" cy="50" r="14" fill="#7b1fa2"/>
+                        <circle cx="65" cy="50" r="14" fill="#8e24aa"/>
+                        <circle cx="55" cy="42" r="14" fill="#9c27b0"/>
+                        <circle cx="40" cy="68" r="14" fill="#6a1b9a"/>
+                        <circle cx="60" cy="68" r="14" fill="#7b1fa2"/>
+                        <circle cx="75" cy="62" r="12" fill="#8e24aa"/>
+                        <circle cx="50" cy="82" r="13" fill="#6a1b9a"/>
+                        <circle cx="68" cy="80" r="13" fill="#7b1fa2"/>
+                        <circle cx="58" cy="92" r="11" fill="#8e24aa"/>
+                        <ellipse cx="48" cy="47" rx="3" ry="4" fill="rgba(255,255,255,0.3)"/>
+                        <ellipse cx="68" cy="47" rx="3" ry="4" fill="rgba(255,255,255,0.3)"/>
+                        <path d="M55 30 Q60 15 65 20 Q62 28 55 30" fill="#4caf50"/>
+                        <line x1="55" y1="30" x2="57" y2="38" stroke="#388e3c" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3>Uva</h3>
+                <p class="preco">R$ 9,90 /kg</p>
+                <button>Adicionar</button>
+            </div>
+            <div class="produto" data-nome="Abacaxi" data-preco="7.50">
+                <div class="produto-img">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="60" cy="70" rx="28" ry="38" fill="#f9a825"/>
+                        <path d="M42 55 L52 50 L48 60 L58 55 L52 65 L62 60 L55 70 L65 65 L58 75 L68 70 L60 80 L70 75 L62 85 L72 80 L60 95 L48 80 L38 85 L50 70 L40 75 L50 60 Z" fill="#e6a100" opacity="0.4"/>
+                        <path d="M55 32 Q50 15 45 20 Q48 28 55 32" fill="#4caf50"/>
+                        <path d="M60 30 Q62 12 68 18 Q64 26 60 30" fill="#66bb6a"/>
+                        <path d="M65 33 Q72 18 76 25 Q70 30 65 33" fill="#4caf50"/>
+                        <path d="M50 34 Q42 20 38 26 Q44 30 50 34" fill="#66bb6a"/>
+                        <path d="M58 28 Q58 10 60 15 Q60 25 58 28" fill="#43a047"/>
+                        <circle cx="52" cy="62" r="2" fill="#e6a100"/>
+                        <circle cx="62" cy="58" r="2" fill="#e6a100"/>
+                        <circle cx="56" cy="72" r="2" fill="#e6a100"/>
+                        <circle cx="66" cy="68" r="2" fill="#e6a100"/>
+                        <circle cx="58" cy="82" r="2" fill="#e6a100"/>
+                        <circle cx="48" cy="75" r="2" fill="#e6a100"/>
+                    </svg>
+                </div>
+                <h3>Abacaxi</h3>
+                <p class="preco">R$ 7,50 /un</p>
+                <button>Adicionar</button>
+            </div>
+            <div class="produto" data-nome="Manga" data-preco="6.30">
+                <div class="produto-img">
+                    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M60 25 Q95 35 100 70 Q102 95 75 100 Q50 103 35 90 Q20 75 25 50 Q28 30 60 25 Z" fill="#ff9800"/>
+                        <path d="M60 25 Q90 32 95 65 Q97 88 75 95 Q55 98 42 88 Q30 75 33 52 Q35 33 60 25 Z" fill="#ffa726"/>
+                        <path d="M60 25 Q55 15 50 18 Q52 22 60 25" fill="#4caf50"/>
+                        <path d="M60 25 Q65 13 68 17 Q65 23 60 25" fill="#66bb6a"/>
+                        <ellipse cx="50" cy="55" rx="8" ry="14" fill="rgba(255,255,255,0.15)"/>
+                        <path d="M45 40 Q55 35 65 40" stroke="rgba(255,255,255,0.15)" stroke-width="3" fill="none"/>
+                    </svg>
+                </div>
+                <h3>Manga</h3>
+                <p class="preco">R$ 6,30 /kg</p>
+                <button>Adicionar</button>
+            </div>
+        </section>
+
+        <section class="carrinho">
+            <h2>Meu Carrinho</h2>
+            <div id="itens-carrinho">
+                <p class="carrinho-vazio">Seu carrinho está vazio.</p>
+            </div>
+            <div class="carrinho-total">
+                <strong>Total: R$ <span id="total">0,00</span></strong>
+            </div>
+            <div class="carrinho-botoes">
+                <button id="limpar-carrinho" class="btn-limpar">Limpar Carrinho</button>
+                <button id="finalizar-compra" class="btn-finalizar">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fruteira Frescor - Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal">
+            <button id="fechar-modal" class="btn-fechar">&times;</button>
+            <h2>Pagamento via Pix</h2>
+            <p class="modal-desc">Escaneie o QR Code com o app do seu banco para pagar:</p>
+            <div id="qrcode" class="qrcode-container"></div>
+            <div class="pix-info">
+                <p><strong>Chave Pix (Telefone):</strong></p>
+                <p class="telefone">(55) 91139-3247</p>
+                <p><strong>Valor:</strong> R$ <span id="qrcode-total">0,00</span></p>
+                <p><strong>Titular:</strong> VINICIUS ELY DOS SANTOS</p>
+                <p><strong>Cidade:</strong> CERRO LARGO - RS</p>
+            </div>
+            <p class="modal-obs">*Pagamento direto via Pix - Valide o valor antes de confirmar</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
